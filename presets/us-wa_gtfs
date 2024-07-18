@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+
+	<group name="US-WA GTFS">
+	
+		<!-- Tags: Selectable -->
+		<item name="01. Selectable" >
+			<label text="01. Selectable" />
+			<combo key="network" text="Network" values="King County Metro,Sound Transit,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
+			<combo key="network:short" text="Network (Short)" values="KCM,ST,CT,ET,IT,KT,PT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393,Q3965367,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
+			<combo key="operator" text="Operator" values="King County Metro,Sound Transit,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="KCM,ST,CT,ET,IT,KT,PT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393,Q3965367,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KCM,US-WA-ST,US-WA-CT,US-WA-ET,US-WA-IT,US-WA-KT,US-WA-PT" />
+		</item>
+		
+		<!-- Tags: US-WA-KCM -->
+		<item name="02. US-WA-KCM (King County Metro)" >
+			<label text="US-WA-KCM (King County Metro)" />
+			<combo key="network" text="Network" values="King County Metro" />
+			<combo key="network:short" text="Network (Short)" values="KCM" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393" />
+			<combo key="operator" text="Operator" values="King County Metro" />
+			<combo key="operator:short" text="Operator (Short)" values="KCM" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KCM" />
+		</item>
+		
+		<!-- Tags: US-WA-ST -->
+		<item name="03. US-WA-ST (Sound Transit)" >
+			<label text="US-WA-ST (Sound Transit)" />
+			<combo key="network" text="Network" values="Sound Transit" />
+			<combo key="network:short" text="Network (Short)" values="ST" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q3965367" />
+			<combo key="operator" text="Operator" values="Sound Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="ST" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q3965367" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ST" />
+		</item>
+		
+		<item name="04. US-WA-CT (Community Transit)" >
+			<label text="US-WA-CT (Community Transit)" />
+			<combo key="network" text="Network" values="Community Transit" />
+			<combo key="network:short" text="Network (Short)" values="CT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5154898" />
+			<combo key="operator" text="Operator" values="Community Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="CT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5154898" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-CT" />
+		</item>
+		
+		<item name="05. US-WA-ET (Everett Transit)" >
+			<label text="US-WA-ET (Everett Transit)" />
+			<combo key="network" text="Network" values="Everett Transit" />
+			<combo key="network:short" text="Network (Short)" values="ET" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5417075" />
+			<combo key="operator" text="Operator" values="Everett Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="ET" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5417075" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ET" />
+		</item>
+		
+		<item name="06. US-WA-IT (Intercity Transit)" >
+			<label text="US-WA-IT (Intercity Transit)" />
+			<combo key="network" text="Network" values="Intercity Transit" />
+			<combo key="network:short" text="Network (Short)" values="IT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q2493414" />
+			<combo key="operator" text="Operator" values="Intercity Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="IT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q2493414" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-IT" />
+		</item>
+		
+		<item name="07. US-WA-KT (Kitsap Transit)" >
+			<label text="US-WA-KT (Kitsap Transit)" />
+			<combo key="network" text="Network" values="Kitsap Transit" />
+			<combo key="network:short" text="Network (Short)" values="KT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6418321" />
+			<combo key="operator" text="Operator" values="Kitsap Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="KT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6418321" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KT" />
+		</item>
+		
+		<item name="08. US-WA-PT (Pierce Transit)" >
+			<label text="US-WA-PT (Pierce Transit)" />
+			<combo key="network" text="Network" values="Pierce Transit" />
+			<combo key="network:short" text="Network (Short)" values="PT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q7191834" />
+			<combo key="operator" text="Operator" values="Pierce Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="PT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q7191834" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-PT" />
+		</item>
+		
+	</group>
+	
+</presets>
