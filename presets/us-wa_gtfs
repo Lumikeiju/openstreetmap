@@ -5,7 +5,7 @@
 	
 		<!-- Tags: Selectable -->
 		<item name="01. Selectable" >
-			<label text="01. Selectable" />
+			<label text="Selectable" />
 			<combo key="network" text="Network" values="King County Metro,Sound Transit,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
 			<combo key="network:short" text="Network (Short)" values="KCM,ST,CT,ET,IT,KT,PT" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393,Q3965367,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
