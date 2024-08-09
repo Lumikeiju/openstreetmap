@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-
 	<group name="Tree"> 
-	
 		<!-- Node: Tree -->
-		<item name="01. Tree" type="node">
+		<item name="Tree" type="node">
 			<label text="Tree Node" />
 			<key key="natural" value="tree" />
 			<combo key="leaf_type" text="Leaf Type" values="broadleaved,needleleaved,leafless" default="broadleaved" editable="false" />
 			<combo key="leaf_cycle" text="Leaf Cycle" values="deciduous,evergreen" default="deciduous" editable="false" />
 			<text key="genus" text="Genus - ex: Acer" default="" />
 			<text key="genus:en" text="Genus (English Name) - ex: Maple" default="" />
-			<text key="genus:wikidata" text="Genus Wikidata - ex: Q42292" default="" />
-			<text key="species" text="Species - ex: Pseudotsuga menziesii" default="" />
-			<text key="species:en" text="Species (English Name) - ex: Douglas Fir" default="" />
-			<text key="species:wikidata" text="Species Wikidata - ex: Q156687" default="" />
-			<text key="taxon" text="Taxon - ex: Acer × freemanii 'Autumn Blaze'" default="" />
-			<text key="taxon:en" text="Taxon (English Name) - ex: Autumn Blaze Freeman Maple" default="" />
-			<text key="taxon:wikidata" text="Taxon Wikidata - ex: Q19607282" default="" />
+			<text key="genus:wikidata" text="Genus (Wikidata) - ex: Q42292" default="" />
+			<text key="species" text="Species - ex: Acer × freemanii" default="" />
+			<text key="species:en" text="Species (English Name) - ex: Freeman Maple" default="" />
+			<text key="species:wikidata" text="Species (Wikidata) - ex: Q9577378" default="" />
+			<text key="taxon" text="Taxon - ex: Acer × freemanii ‘Morgan’" default="" />
+			<text key="taxon:en" text="Taxon (English Name) - ex: Indian Summer Maple" default="" />
+			<text key="taxon:wikidata" text="Taxon (Wikidata) - ex: Q18471108" default="" />
+			<text key="circumference" text="Trunk Circumference" default="" />
+			<text key="diameter" text="Trunk Diameter" default="" />
+			<text key="diameter_crown" text="Crown Diameter" default="" />
+			<text key="height" text="Crown Height" default="" />
+			<text key="est_height" text="Estimated Crown Height" default="" />
 		</item>
-		
 	</group>
-	
 </presets>
