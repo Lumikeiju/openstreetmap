@@ -6,11 +6,15 @@
 			<label text="Specifiy details about the level of LGBTQ+-friendliness of a feature and related signage." />
 			<combo key="lgbtq" text="LGBTQ+" values="only,primary,welcome,no" default="welcome" editable="false" />
 			<check key="lgbtq:signed" text="LGBTQ+ Sign/Flag/Sticker/Message Displayed" default="on" />
-			<combo key="lgbtq:women" text="LGBTQ+ (Women)" values="only,primary,welcome,no" default="" editable="false" />
-			<combo key="lgbtq:men" text="LGBTQ+ (Men)" values="only,primary,welcome,no" default="" editable="false" />
+			<text key="source:lgbtq" text="Source details / URL" default="" />
+			<combo key="lgbtq:lesbian" text="LGBTQ+ (Lesbian)" values="only,primary,welcome,no" default="" editable="false" />
+			<combo key="lgbtq:gay" text="LGBTQ+ (Gay)" values="only,primary,welcome,no" default="" editable="false" />
 			<combo key="lgbtq:bi" text="LGBTQ+ (Bisexual)" values="only,primary,welcome,no" default="" editable="false" />
 			<combo key="lgbtq:trans" text="LGBTQ+ (Transgender)" values="only,primary,welcome,no" default="" editable="false" />
 			<combo key="lgbtq:queer" text="LGBTQ+ (Queer)" values="only,primary,welcome,no" default="" editable="false" />
+			<combo key="lgbtq:non_binary" text="LGBTQ+ (Non-binary)" values="only,primary,welcome,no" default="" editable="false" />
+			<combo key="lgbtq:women" text="LGBTQ+ (Women)" values="only,primary,welcome,no" default="" editable="false" />
+			<combo key="lgbtq:men" text="LGBTQ+ (Men)" values="only,primary,welcome,no" default="" editable="false" />
 		</item>
 	</group>
 </presets>
