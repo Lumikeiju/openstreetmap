@@ -6,7 +6,7 @@ Personal repository for OpenStreetMap-related things.
 
 ### General
 
-* **LGBTQ+** | *(lgbtq.xml)* | `lgbtq:*=*`-tagging preset
+* **LGBTQ+** | *(lgbtq.xml)* | `lgbtq*=*`-tagging preset
 
 * **Tree** | *(tree.xml)* | `natural=tree`-tagging preset
 
