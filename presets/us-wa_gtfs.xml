@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-
-	<group name="US-WA GTFS">
-	
+	<group name="US-WA GTFS"> 
 		<!-- Tags: Selectable -->
 		<item name="01. Selectable" >
 			<label text="Selectable" />
@@ -14,86 +12,82 @@
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393,Q3965367,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KCM,US-WA-ST,US-WA-CT,US-WA-ET,US-WA-IT,US-WA-KT,US-WA-PT" />
 		</item>
-		
 		<!-- Tags: US-WA-KCM -->
 		<item name="02. US-WA-KCM (King County Metro)" >
 			<label text="US-WA-KCM (King County Metro)" />
-			<combo key="network" text="Network" values="King County Metro" />
-			<combo key="network:short" text="Network (Short)" values="KCM" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393" />
-			<combo key="operator" text="Operator" values="King County Metro" />
-			<combo key="operator:short" text="Operator (Short)" values="KCM" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393" />
-			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KCM" />
+			<combo key="network" text="Network" values="King County Metro" default="King County Metro" />
+			<combo key="network:short" text="Network (Short)" values="KCM" default="KCM" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393" default="Q6411393" />
+			<combo key="operator" text="Operator" values="King County Metro" default="King County Metro" />
+			<combo key="operator:short" text="Operator (Short)" values="KCM" default="KCM" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393" default="Q6411393" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KCM" default="US-WA-KCM" />
 		</item>
-		
 		<!-- Tags: US-WA-ST -->
 		<item name="03. US-WA-ST (Sound Transit)" >
 			<label text="US-WA-ST (Sound Transit)" />
-			<combo key="network" text="Network" values="Sound Transit" />
-			<combo key="network:short" text="Network (Short)" values="ST" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q3965367" />
-			<combo key="operator" text="Operator" values="Sound Transit" />
-			<combo key="operator:short" text="Operator (Short)" values="ST" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q3965367" />
-			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ST" />
+			<combo key="network" text="Network" values="Sound Transit" default="Sound Transit" />
+			<combo key="network:short" text="Network (Short)" values="ST" default="ST" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q3965367" default="Q3965367" />
+			<combo key="operator" text="Operator" values="Sound Transit" default="Sound Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="ST" default="ST" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q3965367" default="Q3965367" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ST" default="US-WA-ST" />
 		</item>
-		
+		<!-- Tags: US-WA-CT -->
 		<item name="04. US-WA-CT (Community Transit)" >
 			<label text="US-WA-CT (Community Transit)" />
-			<combo key="network" text="Network" values="Community Transit" />
-			<combo key="network:short" text="Network (Short)" values="CT" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5154898" />
-			<combo key="operator" text="Operator" values="Community Transit" />
-			<combo key="operator:short" text="Operator (Short)" values="CT" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5154898" />
-			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-CT" />
+			<combo key="network" text="Network" values="Community Transit" default="Community Transit" />
+			<combo key="network:short" text="Network (Short)" values="CT" default="CT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5154898" default="Q5154898" />
+			<combo key="operator" text="Operator" values="Community Transit" default="Community Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="CT" default="CT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5154898" default="Q5154898" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-CT" default="US-WA-CT" />
 		</item>
-		
+		<!-- Tags: US-WA-ET -->
 		<item name="05. US-WA-ET (Everett Transit)" >
 			<label text="US-WA-ET (Everett Transit)" />
-			<combo key="network" text="Network" values="Everett Transit" />
-			<combo key="network:short" text="Network (Short)" values="ET" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5417075" />
-			<combo key="operator" text="Operator" values="Everett Transit" />
-			<combo key="operator:short" text="Operator (Short)" values="ET" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5417075" />
-			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ET" />
+			<combo key="network" text="Network" values="Everett Transit" default="Everett Transit" />
+			<combo key="network:short" text="Network (Short)" values="ET" default="ET" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5417075" default="Q5417075" />
+			<combo key="operator" text="Operator" values="Everett Transit" default="Everett Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="ET" default="ET" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5417075" default="Q5417075" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ET" default="US-WA-ET" />
 		</item>
-		
+		<!-- Tags: US-WA-IT -->
 		<item name="06. US-WA-IT (Intercity Transit)" >
 			<label text="US-WA-IT (Intercity Transit)" />
-			<combo key="network" text="Network" values="Intercity Transit" />
-			<combo key="network:short" text="Network (Short)" values="IT" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q2493414" />
-			<combo key="operator" text="Operator" values="Intercity Transit" />
-			<combo key="operator:short" text="Operator (Short)" values="IT" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q2493414" />
-			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-IT" />
+			<combo key="network" text="Network" values="Intercity Transit" default="Intercity Transit" />
+			<combo key="network:short" text="Network (Short)" values="IT" default="IT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q2493414" default="Q2493414" />
+			<combo key="operator" text="Operator" values="Intercity Transit" default="Intercity Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="IT" default="IT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q2493414" default="Q2493414" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-IT" default="US-WA-IT" />
 		</item>
-		
+		<!-- Tags: US-WA-KT -->
 		<item name="07. US-WA-KT (Kitsap Transit)" >
 			<label text="US-WA-KT (Kitsap Transit)" />
-			<combo key="network" text="Network" values="Kitsap Transit" />
-			<combo key="network:short" text="Network (Short)" values="KT" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6418321" />
-			<combo key="operator" text="Operator" values="Kitsap Transit" />
-			<combo key="operator:short" text="Operator (Short)" values="KT" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6418321" />
-			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KT" />
+			<combo key="network" text="Network" values="Kitsap Transit" default="Kitsap Transit" />
+			<combo key="network:short" text="Network (Short)" values="KT" default="KT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6418321" default="Q6418321" />
+			<combo key="operator" text="Operator" values="Kitsap Transit" default="Kitsap Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="KT" default="KT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6418321" default="Q6418321" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KT" default="US-WA-KT" />
 		</item>
-		
+		<!-- Tags: US-WA-PT -->
 		<item name="08. US-WA-PT (Pierce Transit)" >
 			<label text="US-WA-PT (Pierce Transit)" />
-			<combo key="network" text="Network" values="Pierce Transit" />
-			<combo key="network:short" text="Network (Short)" values="PT" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q7191834" />
-			<combo key="operator" text="Operator" values="Pierce Transit" />
-			<combo key="operator:short" text="Operator (Short)" values="PT" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q7191834" />
-			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-PT" />
+			<combo key="network" text="Network" values="Pierce Transit" default="Pierce Transit" />
+			<combo key="network:short" text="Network (Short)" values="PT" default="PT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q7191834" default="Q7191834" />
+			<combo key="operator" text="Operator" values="Pierce Transit" default="Pierce Transit" />
+			<combo key="operator:short" text="Operator (Short)" values="PT" default="PT" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q7191834" default="Q7191834" />
+			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-PT" default="US-WA-PT" />
 		</item>
-		
 	</group>
-	
 </presets>
