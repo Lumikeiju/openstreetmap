@@ -23,9 +23,9 @@
 			<check key="power" text="Power: Pole" value_on="pole" disable_off="true" default="" />
 			<text key="ref" text="Number" default="" />
 			<text key="height" text="Pole Height" default="" />
-			<combo key="operator" text="Operator" values="Seattle City Light" default="Seattle City Light" />
-			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q7442080" default="Q7442080" />
-			<combo key="operator:short" text="Operator (Short)" values="SCL" default="SCL" />
+			<combo key="operator" text="Operator" values="Seattle City Light,Puget Sound Energy" default="" />
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q7442080,Q7258927" default="" />
+			<combo key="operator:short" text="Operator (Short)" values="SCL,PSE" default="" />
 		</item>
 	</group>
 </presets>
