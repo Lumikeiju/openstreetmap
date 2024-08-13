@@ -14,6 +14,8 @@ Personal repository for OpenStreetMap-related things.
 
 * **SCL Poles** | *(seattle_city_light_pole.xml)* | `light:*=*`-focused preset intended for use in Seattle, WA
 
+* **US-WA Address** | *(us-wa_addr.xml)* | `addr:*=*` Simple address tagging preset with WA-US defaults
+
 * **US-WA GTFS** | *(us-wa_gtfs.xml)* | `US-WA-*` GTFS tagging preset for public transport features
 
 ## Guides
