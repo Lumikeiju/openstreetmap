@@ -21,3 +21,7 @@ Personal repository for OpenStreetMap-related things.
 ## Guides
 
 * **King County DSM** | *(king_county_dsm.txt)* | Clipping a .tif (such as a large DSM) in QGIS and importing it into JOSM
+
+## Validators
+
+* **SCL Poles** | *(seattle_city_light_pole.validator.mapcss)* | Cleanup of tags in SCL Poles dataset
