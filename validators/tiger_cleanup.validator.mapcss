@@ -1,0 +1,150 @@
+meta
+{
+    title: "Tiger Cleanup";
+    version: "1.0_2024-08-14";
+    description: "Validator rules for Tiger import cleanup";
+    author: "Lumikeiju";
+    link: "https://github.com/Lumikeiju/openstreetmap/blob/main/validators/tiger_cleanup.validator.mapcss";
+    baselanguage: "en";
+    min-josm-version: 19160;
+}
+
+/* Remove tiger:cfcc */
+way["highway"] {
+    throwError: "Remove tiger:cfcc=*";
+    fixRemove: "tiger:cfcc";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:county */
+way["highway"] {
+    throwError: "Remove tiger:county";
+    fixRemove: "tiger:county";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:reviewed */
+way["highway"] {
+    throwError: "Remove tiger:reviewed";
+    fixRemove: "tiger:reviewed";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_base */
+way["highway"] {
+    throwError: "Remove tiger:name_base";
+    fixRemove: "tiger:name_base";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_type */
+way["highway"] {
+    throwError: "Remove tiger:name_type";
+    fixRemove: "tiger:name_type";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:zip_left */
+way["highway"] {
+    throwError: "Remove tiger:zip_left";
+    fixRemove: "tiger:zip_left";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:zip_right */
+way["highway"] {
+    throwError: "Remove tiger:zip_right";
+    fixRemove: "tiger:zip_right";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:tlid */
+way["highway"] {
+    throwError: "Remove tiger:tlid";
+    fixRemove: "tiger:tlid";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:source */
+way["highway"] {
+    throwError: "Remove tiger:source";
+    fixRemove: "tiger:source";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:upload_uuid */
+way["highway"] {
+    throwError: "Remove tiger:upload_uuid";
+    fixRemove: "tiger:upload_uuid";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:separated */
+way["highway"] {
+    throwError: "Remove tiger:separated";
+    fixRemove: "tiger:separated";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_direction_prefix */
+way["highway"] {
+    throwError: "Remove tiger:name_direction_prefix";
+    fixRemove: "tiger:name_direction_prefix";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_direction_suffix */
+way["highway"] {
+    throwError: "Remove tiger:name_direction_suffix";
+    fixRemove: "tiger:name_direction_suffix";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_base_1 */
+way["highway"] {
+    throwError: "Remove tiger:name_base_1";
+    fixRemove: "tiger:name_base_1";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_type_1 */
+way["highway"] {
+    throwError: "Remove tiger:name_type_1";
+    fixRemove: "tiger:name_type_1";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:zip_left_1 */
+way["highway"] {
+    throwError: "Remove tiger:zip_left_1";
+    fixRemove: "tiger:zip_left_1";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:zip_right_1 */
+way["highway"] {
+    throwError: "Remove tiger:zip_right_1";
+    fixRemove: "tiger:zip_right_1";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_direction_prefix_1 */
+way["highway"] {
+    throwError: "Remove tiger:name_direction_prefix_1";
+    fixRemove: "tiger:name_direction_prefix_1";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:name_direction_suffix_1 */
+way["highway"] {
+    throwError: "Remove tiger:name_direction_suffix_1";
+    fixRemove: "tiger:name_direction_suffix_1";
+    group: "Tiger Cleanup";
+}
+
+/* Remove tiger:mtfcc */
+way["highway"] {
+    throwError: "Remove tiger:mtfcc";
+    fixRemove: "tiger:mtfcc";
+    group: "Tiger Cleanup";
+}
