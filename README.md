@@ -24,4 +24,6 @@ Personal repository for OpenStreetMap-related things.
 
 ## Validators
 
-* **SCL Poles** | *(seattle_city_light_pole.validator.mapcss)* | Cleanup of tags in SCL Poles dataset
+* **SCL Poles** | *(seattle_city_light_pole.validator.mapcss)* | Validator rules for Seattle City Light Poles data
+
+* **Tiger Cleanup** | *(tiger_cleanup.validator.mapcss)* | Validator rules for Tiger import cleanup
