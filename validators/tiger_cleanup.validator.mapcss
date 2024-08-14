@@ -10,140 +10,140 @@ meta
 }
 
 /* Remove tiger:cfcc */
-way["highway"] {
+way["highway"]["tiger:cfcc"] {
     throwError: "Remove tiger:cfcc=*";
     fixRemove: "tiger:cfcc";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:county */
-way["highway"] {
+way["highway"]["tiger:county"] {
     throwError: "Remove tiger:county";
     fixRemove: "tiger:county";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:reviewed */
-way["highway"] {
+way["highway"]["tiger:reviewed"] {
     throwError: "Remove tiger:reviewed";
     fixRemove: "tiger:reviewed";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_base */
-way["highway"] {
+way["highway"]["tiger:name_base"] {
     throwError: "Remove tiger:name_base";
     fixRemove: "tiger:name_base";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_type */
-way["highway"] {
+way["highway"]["tiger:name_type"] {
     throwError: "Remove tiger:name_type";
     fixRemove: "tiger:name_type";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:zip_left */
-way["highway"] {
+way["highway"]["tiger:zip_left"] {
     throwError: "Remove tiger:zip_left";
     fixRemove: "tiger:zip_left";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:zip_right */
-way["highway"] {
+way["highway"]["tiger:zip_right"] {
     throwError: "Remove tiger:zip_right";
     fixRemove: "tiger:zip_right";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:tlid */
-way["highway"] {
+way["highway"]["tiger:tlid"] {
     throwError: "Remove tiger:tlid";
     fixRemove: "tiger:tlid";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:source */
-way["highway"] {
+way["highway"]["tiger:source"] {
     throwError: "Remove tiger:source";
     fixRemove: "tiger:source";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:upload_uuid */
-way["highway"] {
+way["highway"]["tiger:upload_uuid"] {
     throwError: "Remove tiger:upload_uuid";
     fixRemove: "tiger:upload_uuid";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:separated */
-way["highway"] {
+way["highway"]["tiger:separated"] {
     throwError: "Remove tiger:separated";
     fixRemove: "tiger:separated";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_direction_prefix */
-way["highway"] {
+way["highway"]["tiger:name_direction_prefix"] {
     throwError: "Remove tiger:name_direction_prefix";
     fixRemove: "tiger:name_direction_prefix";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_direction_suffix */
-way["highway"] {
+way["highway"]["tiger:name_direction_suffix"] {
     throwError: "Remove tiger:name_direction_suffix";
     fixRemove: "tiger:name_direction_suffix";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_base_1 */
-way["highway"] {
+way["highway"]["tiger:name_base_1"] {
     throwError: "Remove tiger:name_base_1";
     fixRemove: "tiger:name_base_1";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_type_1 */
-way["highway"] {
+way["highway"]["tiger:name_type_1"] {
     throwError: "Remove tiger:name_type_1";
     fixRemove: "tiger:name_type_1";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:zip_left_1 */
-way["highway"] {
+way["highway"]["tiger:zip_left_1"] {
     throwError: "Remove tiger:zip_left_1";
     fixRemove: "tiger:zip_left_1";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:zip_right_1 */
-way["highway"] {
+way["highway"]["tiger:zip_right_1"] {
     throwError: "Remove tiger:zip_right_1";
     fixRemove: "tiger:zip_right_1";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_direction_prefix_1 */
-way["highway"] {
+way["highway"]["tiger:name_direction_prefix_1"] {
     throwError: "Remove tiger:name_direction_prefix_1";
     fixRemove: "tiger:name_direction_prefix_1";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:name_direction_suffix_1 */
-way["highway"] {
+way["highway"]["tiger:name_direction_suffix_1"] {
     throwError: "Remove tiger:name_direction_suffix_1";
     fixRemove: "tiger:name_direction_suffix_1";
     group: "Tiger Cleanup";
 }
 
 /* Remove tiger:mtfcc */
-way["highway"] {
+way["highway"]["tiger:mtfcc"] {
     throwError: "Remove tiger:mtfcc";
     fixRemove: "tiger:mtfcc";
     group: "Tiger Cleanup";
