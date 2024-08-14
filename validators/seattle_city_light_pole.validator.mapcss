@@ -1,12 +1,12 @@
 meta
 {
     title: "Seattle City Light Poles";
-    version: "1.0_2024-04-27";
+    version: "1.1_2024-08-14";
     description: "Validator rules for Seattle City Light Poles data";
     author: "Lumikeiju";
     link: "https://github.com/Lumikeiju/openstreetmap/blob/main/validators/seattle_city_light_pole.validator.mapcss";
     baselanguage: "en";
-    min-josm-version: 14481;
+    min-josm-version: 19160;
 }
 
 /* Replace "STREETLIGHT=YES" with "highway=street_lamp" */
