@@ -3,7 +3,7 @@
 	<group name="LGBTQ+"> 
 		<!-- Node/Way/Area/Relation: LGBTQ+ -->
 		<item name="LGBTQ+" type="node,way,closedway,relation">
-			<label text="Specifiy details about the level of LGBTQ+-friendliness of a feature and related signage." />
+			<label text="Specify details about the level of LGBTQ+-friendliness of a feature and related signage." />
 			<combo key="lgbtq" text="LGBTQ+" values="only,primary,welcome,no" default="welcome" editable="false" />
 			<check key="lgbtq:signed" text="LGBTQ+ Sign/Flag/Sticker/Message Displayed" default="on" />
 			<text key="source:lgbtq" text="Source details / URL" default="" />
