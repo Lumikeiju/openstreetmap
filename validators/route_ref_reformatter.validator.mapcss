@@ -1,0 +1,17 @@
+meta
+{
+    title: "Route Reference Refrormatter";
+    version: "1.0_2024-08-18";
+    description: "Validator rule which reformats the route_ref tag.";
+    author: "Lumikeiju";
+    link: "https://github.com/Lumikeiju/openstreetmap/blob/main/validators/route_ref_reformatter.validator.mapcss";
+    baselanguage: "en";
+    min-josm-version: 19160;
+}
+
+/* Replace ", " with ";" in "route_ref" */
+*[route_ref *= ", "] {
+	throwError: "Reformat route_ref";
+	fixAdd: concat("route_ref=", replace(tag(route_ref), ", ", ";"));
+	group: "Route Reference Refrormatter";
+}
