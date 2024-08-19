@@ -20,10 +20,12 @@ Personal repository for OpenStreetMap-related things.
 
 ## Guides
 
-* **King County DSM** | *(king_county_dsm.txt)* | Clipping a .tif (such as a large DSM) in QGIS and importing it into JOSM
+* **King County DSM** | *(king_county_dsm.txt)* | Clipping a `.tif` (such as a large DSM) in QGIS and importing it into JOSM
 
 ## Validators
 
 * **SCL Poles** | *(seattle_city_light_pole.validator.mapcss)* | Validator rules for Seattle City Light Poles data
 
-* **Tiger Cleanup** | *(tiger_cleanup.validator.mapcss)* | Validator rules for Tiger import cleanup
+* **Tiger Cleanup** | *(tiger_cleanup.validator.mapcss)* | Validator rules for TIGER import cleanup
+
+* **Route Reference Reformatter** | *(route_ref_reformatter.validator.mapcss)* | Validator rule which reformats the delimeter in `route_ref`
