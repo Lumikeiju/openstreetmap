@@ -6,6 +6,8 @@ Personal repository for OpenStreetMap-related things.
 
 ### General
 
+* **3D Building Details** | *(3d_building_details.xml)* | Simple 3D Buildings tagging preset
+
 * **LGBTQ+** | *(lgbtq.xml)* | `lgbtq*=*`-tagging preset
 
 * **Tree** | *(tree.xml)* | `natural=tree`-tagging preset
