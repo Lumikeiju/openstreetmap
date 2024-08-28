@@ -4,9 +4,9 @@
 		<!-- Tags: Selectable -->
 		<item name="01. Selectable" >
 			<label text="Selectable" />
-			<combo key="network" text="Network" values="King County Metro,Sound Transit,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
-			<combo key="network:short" text="Network (Short)" values="KCM,ST,CT,ET,IT,KT,PT" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393,Q3965367,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
+			<combo key="network" text="Network" values="King County Metro,Sound Transit Express,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
+			<combo key="network:short" text="Network (Short)" values="KCM,ST Express,CT,ET,IT,KT,PT" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393,Q7564730,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
 			<combo key="operator" text="Operator" values="King County Metro,Sound Transit,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="KCM,ST,CT,ET,IT,KT,PT" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393,Q3965367,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
@@ -26,9 +26,9 @@
 		<!-- Tags: US-WA-ST -->
 		<item name="03. US-WA-ST (Sound Transit)" >
 			<label text="US-WA-ST (Sound Transit)" />
-			<combo key="network" text="Network" values="Sound Transit" default="Sound Transit" />
-			<combo key="network:short" text="Network (Short)" values="ST" default="ST" />
-			<combo key="network:wikidata" text="Network (Wikidata)" values="Q3965367" default="Q3965367" />
+			<combo key="network" text="Network" values="Sound Transit Express" default="Sound Transit" />
+			<combo key="network:short" text="Network (Short)" values="ST Express" default="ST Express" />
+			<combo key="network:wikidata" text="Network (Wikidata)" values="Q7564730" default="Q7564730" />
 			<combo key="operator" text="Operator" values="Sound Transit" default="Sound Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="ST" default="ST" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q3965367" default="Q3965367" />
