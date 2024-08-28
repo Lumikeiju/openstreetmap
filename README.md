@@ -10,6 +10,8 @@ Personal repository for OpenStreetMap-related things.
 
 * **LGBTQ+** | *(lgbtq.xml)* | `lgbtq*=*`-tagging preset
 
+* **Public Transport** | *(public_transport.xml)* | Public transport features tagging preset
+
 * **Rooftop Solar Panel(s)** | *(rooftop_solar_panel.xml)* | Preset for quickly adding rooftop solar panels
 
 * **Tree** | *(tree.xml)* | `natural=tree`-tagging preset
