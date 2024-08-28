@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+	<group name="Public Transport">
+		<!-- Relation: Stop Area -->
+		<item name="01. Stop Area (Relation)" type="relation" >
+			<label text="Stop Area Relation" />
+			<key key="type" value="public_transport" />
+			<key key="public_transport" value="stop_area" />
+		</item>
+		<!-- Node: Stop Position -->
+		<item name="02. Stop Position (Node)" type="node" >
+			<label text="Stop Position Node" />
+			<key key="public_transport" value="stop_position" />
+			<check key="bus" text="Bus" default="on" disable_off="true" />
+			<check key="trolleybus" text="Trolleybus" disable_off="true" />
+			<check key="tram" text="Tram (Streetcar)" disable_off="true" />
+			<check key="light_rail" text="Light Rail" disable_off="true" />
+			<check key="monorail" text="Monorail" disable_off="true" />
+			<check key="train" text="Train" disable_off="true" />
+			<check key="ferry" text="Ferry" disable_off="true" />
+		</item>
+		<!-- Node/Way/Area: Platform -->
+		<item name="03. Platform (Node/Area)" type="node,way,closedway" >
+			<label text="Platform Node/Way/Area" />
+			<key key="public_transport" value="platform" />
+			<combo key="shelter" text="Shelter" values="yes,no,separate" default="" />
+			<combo key="bench" text="Bench" values="yes,no,separate" default="" />
+			<combo key="bin" text="Bin" values="yes,no,separate" default="" />
+			<combo key="lit" text="Lit" values="yes,no,24/7" default="" />
+			<text key="surface" text="Surface" default="concrete" /> 
+		</item>
+		<!-- Way: Platform Edge -->
+		<item name="04. Platform Edge (Way)" type="way" >
+			<label text="Platform Edge Way" />
+			<key key="public_transport" value="platform_edge" />
+			<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="no" />
+			<combo key="tactile_paving:colour" text="Tactile Paving Color" values="yellow,white,Specify..." default="" />
+			<combo key="lit" text="Lit" values="yes,no,24/7" default="" />
+			<check key="barrier" text="Barrier" default="on" value_on="kerb" disable_off="true" />
+			<combo key="kerb" text="Curb" values="raised,lowered,no,flush" default="raised" editable="false" />			
+			<combo key="surface" text="Surface" values="concrete,asphalt,Specify..." default="" />			
+		</item>
+		<!-- Node: Bus Stop -->
+		<item name="05. Bus Stop (Node)" type="node" >
+			<label text="Bus Stop Node" />
+			<key key="highway" value="bus_stop" />
+			<combo key="shelter" text="Shelter" values="yes,no,separate" default="" />
+			<combo key="bench" text="Bench" values="yes,no,separate" default="" />
+			<combo key="bin" text="Bin" values="yes,no,separate" default="" />
+			<combo key="lit" text="Lit" values="yes,no,24/7" default="" />
+			<combo key="departures_board" text="Departures Board" values="no,timetable,realtime" default="" />
+		</item>
+		<!-- Node/Area: Shelter -->
+		<item name="06. Shelter (Node/Area)" type="node,closedway" >
+			<label text="Shelter Node/Area" />
+			<key key="amenity" value="shelter" />
+			<key key="shelter_type" value="public_transport" />
+			<key key="building" value="roof" />
+			<text key="height" text="Height" default="" />
+			<text key="min_height" text="Minimum Height" default="" />
+			<text key="roof:height" text="Roof Height" default="" />
+			<combo key="roof:shape" text="Roof Shape" values="flat,gabled,skillion,hipped,round" default="" />
+			<combo key="roof:orientation" text="Roof Orientation" values="along,across" default="" />
+			<text key="roof:direction" text="Roof Direction (water runs towards... 0-360)" default="" />
+			<combo key="building:colour" text="Building Color" values="blue,black,green,brown,teal" default="" />
+			<combo key="roof:colour" text="Roof Color" values="white" default="" />
+			<combo key="bench" text="Bench" values="yes,no,separate" default="" />
+			<combo key="bin" text="Waste Basket" values="yes,no,separate" default="" />
+			<combo key="lit" text="Lit" values="yes,no,24/7,disused" default="" />
+		</item>
+		<!-- Node/Way/Area: Bench -->
+		<item name="07. Bench (Node/Way/Area)" type="node,way,closedway" >
+			<label text="Bench Node/Way/Area" />
+			<key key="amenity" value="bench" />
+			<combo key="backrest" text="Backrest" values="yes,no" default="" />
+			<combo key="armrest" text="Armrest" values="yes,no" default="no" />
+			<combo key="covered" text="Covered" values="yes,no" default="" />
+			<combo key="material" text="Material" values="metal,wood,Specify..." default="" />
+			<combo key="colour" text="Color" values="black,brown,Specify..." default="" />
+			<check key="seats:separated" text="Separated Seats" default="" />
+		</item>
+		<!-- Node: Bin (Trash) -->
+		<item name="08. Trash Can (Node)" type="node" >
+			<label text="Trash Can Node" />
+			<key key="amenity" value="waste_basket" />
+			<key key="waste" value="trash" />
+		</item>
+		<!-- Node: Bin (Recycling) -->
+		<item name="09. Recycling Bin (Node)" type="node" >
+			<label text="Recycling Bin Node" />
+			<key key="amenity" value="recycling" />
+			<key key="recycling_type" value="container" />
+		</item>
+		<!-- Node: Bin (Compost) -->
+		<item name="10. Compost Bin (Node)" type="node" >
+			<label text="Compost Bin Node" />
+			<key key="amenity" value="recycling" />
+			<key key="recycling_type" value="container" />
+			<key key="recycling:green_waste" value="yes" />
+		</item>
+	</group>
+</presets>
