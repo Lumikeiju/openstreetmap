@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
 	<group name="Public Transport">
+		<!-- Node/Way/Area/Relation: Stop Details -->
+		<item name="00. Stop Details" type="node,way,closedway,relation" >
+			<text key="name" text="Name" default="" />
+			<text key="ref" text="Reference" default="" />
+			<text key="gtfs:stop_id" text="GTFS Stop ID" default="" />
+			<text key="local_ref" text="Local Reference" default="" />
+			<text key="route_ref" text="Route(s) Served" default="" />
+		</item>
 		<!-- Relation: Stop Area -->
 		<item name="01. Stop Area (Relation)" type="relation" >
 			<label text="Stop Area Relation" />
@@ -36,7 +44,7 @@
 			<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="no" />
 			<combo key="tactile_paving:colour" text="Tactile Paving Color" values="yellow,white,Specify..." default="" />
 			<combo key="lit" text="Lit" values="yes,no,24/7" default="" />
-			<check key="barrier" text="Barrier" default="on" value_on="kerb" disable_off="true" />
+			<check key="barrier" text="Curb (Barrier)" default="on" value_on="kerb" disable_off="true" />
 			<combo key="kerb" text="Curb" values="raised,lowered,no,flush" default="raised" editable="false" />			
 			<combo key="surface" text="Surface" values="concrete,asphalt,Specify..." default="" />			
 		</item>
@@ -73,7 +81,7 @@
 			<label text="Bench Node/Way/Area" />
 			<key key="amenity" value="bench" />
 			<combo key="backrest" text="Backrest" values="yes,no" default="" />
-			<combo key="armrest" text="Armrest" values="yes,no" default="no" />
+			<combo key="armrest" text="Armrest" values="yes,no" default="" />
 			<combo key="covered" text="Covered" values="yes,no" default="" />
 			<combo key="material" text="Material" values="metal,wood,Specify..." default="" />
 			<combo key="colour" text="Color" values="black,brown,Specify..." default="" />
@@ -97,6 +105,50 @@
 			<key key="amenity" value="recycling" />
 			<key key="recycling_type" value="container" />
 			<key key="recycling:green_waste" value="yes" />
+		</item>
+		<!-- Relation: Route -->
+		<item name="11. Route (Relation)" type="relation" >
+			<label text="Route Relation" />
+			<key key="type" value="route" />
+			<check key="public_transport:version" text="PTv2" default="on" value_on="2" disable_off="true" />
+			<combo key="route" text="Vehicle Type" values="bus,trolleybus,tram,light_rail,monorail,train,ferry" default="bus" />
+			<text key="ref" text="Refrence Number/Letter" default="" />
+			<text key="name" text="Route Name" default="" />
+			<text key="from" text="Origin" default="" />
+			<text key="via" text="Midpoint" default="" />
+			<text key="to" text="Destination" default="" />
+			<text key="colour" text="Route Color" default="" />
+			<text key="website" text="Website" default="" />
+			<text key="opening_hours" text="Hours of Operation" default="" />
+			<check key="fee" text="Fee" default="on" />
+			<text key="network" text="Network" default="" />
+			<text key="network:short" text="Network (Short)" default="" />
+			<text key="network:wikidata" text="Network (Wikidata)" default="" />
+			<text key="operator" text="Operator" default="" />
+			<text key="operator:short" text="Operator (Short)" default="" />
+			<text key="operator:wikidata" text="Operator (Wikidata)" default="" />
+			<text key="gtfs:feed" text="GTFS Feed" default="" />
+			<text key="gtfs:shape_id" text="GTFS Shape ID" default="" />
+		</item>
+		<!-- Relation: Route Master -->
+		<item name="11. Route Master (Relation)" type="relation" >
+			<label text="Route Master Relation" />
+			<key key="type" value="route_master" />
+			<combo key="route_master" text="Vehicle Type" values="bus,trolleybus,tram,light_rail,monorail,train,ferry" default="bus" />
+			<text key="ref" text="Refrence Number/Letter" default="" />
+			<text key="name" text="Route Name" default="" />
+			<text key="colour" text="Route Color" default="" />
+			<text key="website" text="Website" default="" />
+			<text key="opening_hours" text="Hours of Operation" default="" />
+			<check key="fee" text="Fee" default="on" />
+			<text key="network" text="Network" default="" />
+			<text key="network:short" text="Network (Short)" default="" />
+			<text key="network:wikidata" text="Network (Wikidata)" default="" />
+			<text key="operator" text="Operator" default="" />
+			<text key="operator:short" text="Operator (Short)" default="" />
+			<text key="operator:wikidata" text="Operator (Wikidata)" default="" />
+			<text key="gtfs:feed" text="GTFS Feed" default="" />
+			<text key="gtfs:route_id" text="GTFS Route ID" default="" />
 		</item>
 	</group>
 </presets>
