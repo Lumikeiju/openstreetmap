@@ -128,7 +128,7 @@
 			<text key="operator:short" text="Operator (Short)" default="" />
 			<text key="operator:wikidata" text="Operator (Wikidata)" default="" />
 			<text key="gtfs:feed" text="GTFS Feed" default="" />
-			<text key="gtfs:shape_id" text="GTFS Shape ID" default="" />
+			<text key="gtfs:route_id" text="GTFS Route ID" default="" />
 		</item>
 		<!-- Relation: Route Master -->
 		<item name="11. Route Master (Relation)" type="relation" >
