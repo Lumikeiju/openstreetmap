@@ -31,11 +31,12 @@
 		<item name="03. Platform (Node/Area)" type="node,way,closedway" >
 			<label text="Platform Node/Way/Area" />
 			<key key="public_transport" value="platform" />
+			<check key="highway" text="Platform" default="on" value_on="platform" disable_off="true" />
 			<combo key="shelter" text="Shelter" values="yes,no,separate" default="" />
 			<combo key="bench" text="Bench" values="yes,no,separate" default="" />
 			<combo key="bin" text="Bin" values="yes,no,separate" default="" />
 			<combo key="lit" text="Lit" values="yes,no,24/7" default="" />
-			<text key="surface" text="Surface" default="concrete" /> 
+			<text key="surface" text="Surface" default="concrete" />
 		</item>
 		<!-- Way: Platform Edge -->
 		<item name="04. Platform Edge (Way)" type="way" >
@@ -45,8 +46,8 @@
 			<combo key="tactile_paving:colour" text="Tactile Paving Color" values="yellow,white,Specify..." default="" />
 			<combo key="lit" text="Lit" values="yes,no,24/7" default="" />
 			<check key="barrier" text="Curb (Barrier)" default="on" value_on="kerb" disable_off="true" />
-			<combo key="kerb" text="Curb" values="raised,lowered,no,flush" default="raised" editable="false" />			
-			<combo key="surface" text="Surface" values="concrete,asphalt,Specify..." default="" />			
+			<combo key="kerb" text="Curb" values="raised,lowered,no,flush" default="raised" editable="false" />	
+			<combo key="surface" text="Surface" values="concrete,asphalt,Specify..." default="" />
 		</item>
 		<!-- Node: Bus Stop -->
 		<item name="05. Bus Stop (Node)" type="node" >
@@ -55,6 +56,7 @@
 			<combo key="shelter" text="Shelter" values="yes,no,separate" default="" />
 			<combo key="bench" text="Bench" values="yes,no,separate" default="" />
 			<combo key="bin" text="Bin" values="yes,no,separate" default="" />
+			<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="no" />
 			<combo key="lit" text="Lit" values="yes,no,24/7" default="" />
 			<combo key="departures_board" text="Departures Board" values="no,timetable,realtime" default="" />
 		</item>
@@ -70,8 +72,8 @@
 			<combo key="roof:shape" text="Roof Shape" values="flat,gabled,skillion,hipped,round" default="" />
 			<combo key="roof:orientation" text="Roof Orientation" values="along,across" default="" />
 			<text key="roof:direction" text="Roof Direction (water runs towards... 0-360)" default="" />
-			<combo key="building:colour" text="Building Color" values="blue,black,green,brown,teal" default="" />
-			<combo key="roof:colour" text="Roof Color" values="white" default="" />
+			<combo key="building:colour" text="Building Color" values="blue,black,green,brown,teal,Specify..." default="" />
+			<combo key="roof:colour" text="Roof Color" values="white,Specify..." default="" />
 			<combo key="bench" text="Bench" values="yes,no,separate" default="" />
 			<combo key="bin" text="Waste Basket" values="yes,no,separate" default="" />
 			<combo key="lit" text="Lit" values="yes,no,24/7,disused" default="" />
