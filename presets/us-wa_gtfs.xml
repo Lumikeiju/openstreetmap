@@ -7,9 +7,11 @@
 			<combo key="network" text="Network" values="King County Metro,Sound Transit Express,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
 			<combo key="network:short" text="Network (Short)" values="KCM,ST Express,CT,ET,IT,KT,PT" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393,Q7564730,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:King County Metro,en:Sound Transit Express,en:Community Transit,en:Everett Transit,en:Intercity Transit,en:Kitsap Transit,en:Pierce Transit" default="en:King County Metro,en:Sound Transit Express,en:Community Transit,en:Everett Transit,en:Intercity Transit,en:Kitsap Transit,en:Pierce Transit" />
 			<combo key="operator" text="Operator" values="King County Metro,Sound Transit,Community Transit,Everett Transit,Intercity Transit,Kitsap Transit,Pierce Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="KCM,ST,CT,ET,IT,KT,PT" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393,Q3965367,Q5154898,Q5417075,Q2493414,Q6418321,Q7191834" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:King County Metro,en:Sound Transit,en:Community Transit,en:Everett Transit,en:Intercity Transit,en:Kitsap Transit,en:Pierce Transit" default="en:King County Metro,en:Sound Transit,en:Community Transit,en:Everett Transit,en:Intercity Transit,en:Kitsap Transit,en:Pierce Transit" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KCM,US-WA-ST,US-WA-CT,US-WA-ET,US-WA-IT,US-WA-KT,US-WA-PT" />
 		</item>
 		<!-- Tags: US-WA-KCM -->
@@ -18,9 +20,11 @@
 			<combo key="network" text="Network" values="King County Metro" default="King County Metro" />
 			<combo key="network:short" text="Network (Short)" values="KCM" default="KCM" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6411393" default="Q6411393" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:King County Metro" default="en:King County Metro" />
 			<combo key="operator" text="Operator" values="King County Metro" default="King County Metro" />
 			<combo key="operator:short" text="Operator (Short)" values="KCM" default="KCM" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6411393" default="Q6411393" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:King County Metro" default="en:King County Metro" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KCM" default="US-WA-KCM" />
 		</item>
 		<!-- Tags: US-WA-ST -->
@@ -29,9 +33,11 @@
 			<combo key="network" text="Network" values="Sound Transit Express" default="Sound Transit" />
 			<combo key="network:short" text="Network (Short)" values="ST Express" default="ST Express" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q7564730" default="Q7564730" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:Sound Transit Express" default="en:Sound Transit Express" />
 			<combo key="operator" text="Operator" values="Sound Transit" default="Sound Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="ST" default="ST" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q3965367" default="Q3965367" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:Sound Transit" default="en:Sound Transit" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ST" default="US-WA-ST" />
 		</item>
 		<!-- Tags: US-WA-CT -->
@@ -40,9 +46,11 @@
 			<combo key="network" text="Network" values="Community Transit" default="Community Transit" />
 			<combo key="network:short" text="Network (Short)" values="CT" default="CT" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5154898" default="Q5154898" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:Community Transit" default="en:Community Transit" />
 			<combo key="operator" text="Operator" values="Community Transit" default="Community Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="CT" default="CT" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5154898" default="Q5154898" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:Community Transit" default="en:Community Transit" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-CT" default="US-WA-CT" />
 		</item>
 		<!-- Tags: US-WA-ET -->
@@ -51,9 +59,11 @@
 			<combo key="network" text="Network" values="Everett Transit" default="Everett Transit" />
 			<combo key="network:short" text="Network (Short)" values="ET" default="ET" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q5417075" default="Q5417075" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:Everett Transit" default="en:Everett Transit" />
 			<combo key="operator" text="Operator" values="Everett Transit" default="Everett Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="ET" default="ET" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q5417075" default="Q5417075" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:Everett Transit" default="en:Everett Transit" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-ET" default="US-WA-ET" />
 		</item>
 		<!-- Tags: US-WA-IT -->
@@ -62,9 +72,11 @@
 			<combo key="network" text="Network" values="Intercity Transit" default="Intercity Transit" />
 			<combo key="network:short" text="Network (Short)" values="IT" default="IT" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q2493414" default="Q2493414" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:Intercity Transit" default="en:Intercity Transit" />
 			<combo key="operator" text="Operator" values="Intercity Transit" default="Intercity Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="IT" default="IT" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q2493414" default="Q2493414" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:Intercity Transit" default="en:Intercity Transit" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-IT" default="US-WA-IT" />
 		</item>
 		<!-- Tags: US-WA-KT -->
@@ -73,9 +85,11 @@
 			<combo key="network" text="Network" values="Kitsap Transit" default="Kitsap Transit" />
 			<combo key="network:short" text="Network (Short)" values="KT" default="KT" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q6418321" default="Q6418321" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:Kitsap Transit" default="en:Kitsap Transit" />
 			<combo key="operator" text="Operator" values="Kitsap Transit" default="Kitsap Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="KT" default="KT" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q6418321" default="Q6418321" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:Kitsap Transit" default="en:Kitsap Transit" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-KT" default="US-WA-KT" />
 		</item>
 		<!-- Tags: US-WA-PT -->
@@ -84,9 +98,11 @@
 			<combo key="network" text="Network" values="Pierce Transit" default="Pierce Transit" />
 			<combo key="network:short" text="Network (Short)" values="PT" default="PT" />
 			<combo key="network:wikidata" text="Network (Wikidata)" values="Q7191834" default="Q7191834" />
+			<combo key="network:wikipedia" text="Network (Wikipedia)" values="en:Pierce Transit" default="en:Pierce Transit" />
 			<combo key="operator" text="Operator" values="Pierce Transit" default="Pierce Transit" />
 			<combo key="operator:short" text="Operator (Short)" values="PT" default="PT" />
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q7191834" default="Q7191834" />
+			<combo key="operator:wikipedia" text="Operator (Wikipedia)" values="en:Pierce Transit" default="en:Pierce Transit" />
 			<combo key="gtfs:feed" text="GTFS Feed" values="US-WA-PT" default="US-WA-PT" />
 		</item>
 	</group>
