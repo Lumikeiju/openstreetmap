@@ -30,6 +30,8 @@ Personal repository for OpenStreetMap-related things.
 
 ## Validators
 
+* **[Contact Prefix](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/contact_prefix.validator.mapcss)** | *(contact_prefix.validator.mapcss)* | Validator rules suggesting `contact:` prefix
+
 * **[SCL Poles](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/seattle_city_light_pole.validator.mapcss)** | *(seattle_city_light_pole.validator.mapcss)* | Validator rules for Seattle City Light Poles data
 
 * **[Tiger Cleanup](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/tiger_cleanup.validator.mapcss)** | *(tiger_cleanup.validator.mapcss)* | Validator rules for TIGER import cleanup
