@@ -1,0 +1,30 @@
+---
+style:
+  extends: https://styles.trailsta.sh/positron.json
+  layers:
+    - type: line
+      filter:
+        - any
+        - [ ==, [ get, "winter_service:priority" ], "1" ]
+      paint: &paint
+        line-width: 5
+        line-color: "#FFB22F"
+    - type: line
+      filter:
+        - any
+        - [ ==, [ get, "winter_service:priority" ], "2" ]
+      paint:
+        <<: *paint
+        line-color: "#2FAF5F"
+    - type: line
+      filter:
+        - any
+        - [ ==, [ get, "winter_service" ], "no" ]
+      paint:
+        <<: *paint
+        line-width: 1
+        line-color: "#AFB8B6"
+---
+[bbox:{{bbox}}];
+way["winter_service"];
+out geom;
