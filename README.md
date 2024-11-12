@@ -38,11 +38,19 @@ Personal repository for OpenStreetMap-related things.
 
 * **[Route Reference Reformatter](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/route_ref_reformatter.validator.mapcss)** | *(route_ref_reformatter.validator.mapcss)* | Validator rule which reformats the delimeter in `route_ref`
 
+## Visualizations
+
+Style documents for use on [Ultra](https://overpass-ultra.us/). 
+
+**How to use:** Replace the query on Overpass Ultra with the contents of the file. Navigate on the map to the desired area and hit "Run" at the top left.
+
+Refer to the [MapLibre Style Spec documentation](https://maplibre.org/maplibre-style-spec/) for more details on customizing the visualization.
+
+* **[Pride Map](https://github.com/Lumikeiju/openstreetmap/blob/main/visualizations/pride_map)** | *(pride_map)* | `lgbtq*=*` visualization map
+
+* **[Winter Service](https://github.com/Lumikeiju/openstreetmap/blob/main/visualizations/winter_service)** | *(winter_service)* | Visualization of `winter_service*=*` tags on roadways
+
 ## Queries
-
-### Overpass Ultra
-
-* **[Pride Map](https://github.com/Lumikeiju/openstreetmap/blob/main/queries/overpass_ultra/pride_map.overpassql)** | *(pride_map.overpassql)* | `lgbtq*=*` visualization map
 
 ### QA
 
