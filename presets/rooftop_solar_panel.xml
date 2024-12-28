@@ -11,6 +11,7 @@
 			<key key="generator:output:electricity" value="yes" />
 			<key key="generator:solar:tracking" value="no" />
 			<key key="location" value="roof" />
+			<text key="generator:solar:modules" text="Number of panels" default="" />
 		</item>	
 	</group>
 </presets>
