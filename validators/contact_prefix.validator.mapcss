@@ -1,163 +1,142 @@
 meta
 {
 	title: "Contact Prefix";
-	version: "1.0_2024-11-02";
-	description: "Validator rules enforcing contact prefix";
+	version: "1.1_2024-12-27";
+	description: "Validator rules suggesting contact prefix";
 	author: "Lumikeiju";
 	link: "https://github.com/Lumikeiju/openstreetmap/blob/main/validators/contact_prefix.validator.mapcss";
 	baselanguage: "en";
 	min-josm-version: 19160;
 }
 
-/* phone */
 *["phone"] {
-	throwWarning: "Change phone to contact:phone";
+	throwWarning: "Change phone to contact:phone?";
 	fixChangeKey: "phone=>contact:phone";
 	group: "Contact Prefix";
 }
 
-/* mobile */
 *["mobile"] {
-	throwWarning: "Change mobile to contact:mobile";
+	throwWarning: "Change mobile to contact:mobile?";
 	fixChangeKey: "mobile=>contact:mobile";
 	group: "Contact Prefix";
 }
 
-/* sms */
 *["sms"] {
-	throwWarning: "Change sms to contact:sms";
+	throwWarning: "Change sms to contact:sms?";
 	fixChangeKey: "sms=>contact:sms";
 	group: "Contact Prefix";
 }
 
-/* tty */
 *["tty"] {
-	throwWarning: "Change tty to contact:tty";
+	throwWarning: "Change tty to contact:tty?";
 	fixChangeKey: "tty=>contact:tty";
 	group: "Contact Prefix";
 }
 
-/* fax */
 *["fax"] {
-	throwWarning: "Change fax to contact:fax";
+	throwWarning: "Change fax to contact:fax?";
 	fixChangeKey: "fax=>contact:fax";
 	group: "Contact Prefix";
 }
 
-/* email */
 *["email"] {
-	throwWarning: "Change email to contact:email";
+	throwWarning: "Change email to contact:email?";
 	fixChangeKey: "email=>contact:email";
 	group: "Contact Prefix";
 }
 
-/* website */
 *["website"] {
-	throwWarning: "Change website to contact:website";
+	throwWarning: "Change website to contact:website?";
 	fixChangeKey: "website=>contact:website";
     group: "Contact Prefix";
 }
 
-/* yelp */
 *["yelp"] {
-	throwWarning: "Change yelp to contact:yelp";
+	throwWarning: "Change yelp to contact:yelp?";
 	fixChangeKey: "yelp=>contact:yelp";
+	group: "Contact Prefix";
 	}
 
-/* tripadvisor */
 *["tripadvisor"] {
-	throwWarning: "Change tripadvisor to contact:tripadvisor";
+	throwWarning: "Change tripadvisor to contact:tripadvisor?";
 	fixChangeKey: "tripadvisor=>contact:tripadvisor";
 	group: "Contact Prefix";
 }
 
-/* linkedin */
 *["linkedin"] {
-	throwWarning: "Change linkedin to contact:linkedin";
+	throwWarning: "Change linkedin to contact:linkedin?";
 	fixChangeKey: "linkedin=>contact:linkedin";
 	group: "Contact Prefix";
 }
 
-/* facebook */
 *["facebook"] {
-	throwWarning: "Change facebook to contact:facebook";
+	throwWarning: "Change facebook to contact:facebook?";
 	fixChangeKey: "facebook=>contact:facebook";
 	group: "Contact Prefix";
 }
 
-/* instagram */
 *["instagram"] {
-	throwWarning: "Change instagram to contact:instagram";
+	throwWarning: "Change instagram to contact:instagram?";
 	fixChangeKey: "instagram=>contact:instagram";
 	group: "Contact Prefix";
 }
 
-/* twitter */
 *["twitter"] {
-	throwWarning: "Change twitter to contact:twitter";
+	throwWarning: "Change twitter to contact:twitter?";
 	fixChangeKey: "twitter=>contact:twitter";
 	group: "Contact Prefix";
 }
 
-/* youtube */
 *["youtube"] {
-	throwWarning: "Change youtube to contact:youtube";
+	throwWarning: "Change youtube to contact:youtube?";
 	fixChangeKey: "youtube=>contact:youtube";
 	group: "Contact Prefix";
-}	
+}
 
-/* telegram */
 *["telegram"] {
-	throwWarning: "Change telegram to contact:telegram";
+	throwWarning: "Change telegram to contact:telegram?";
 	fixChangeKey: "telegram=>contact:telegram";
 	group: "Contact Prefix";
 }
 
-/* whatsapp */
 *["whatsapp"] {
-	throwWarning: "Change whatsapp to contact:whatsapp";
+	throwWarning: "Change whatsapp to contact:whatsapp?";
 	fixChangeKey: "whatsapp=>contact:whatsapp";
 	group: "Contact Prefix";
 }
 
-/* viber */
 *["viber"] {
-	throwWarning: "Change viber to contact:viber";
+	throwWarning: "Change viber to contact:viber?";
 	fixChangeKey: "viber=>contact:viber";
 	group: "Contact Prefix";
 }
 
-/* skype */
 *["skype"] {
-	throwWarning: "Change skype to contact:skype";
+	throwWarning: "Change skype to contact:skype?";
 	fixChangeKey: "skype=>contact:skype";
 	group: "Contact Prefix";
 }
 
-/* foursquare */
 *["foursquare"] {
-	throwWarning: "Change foursquare to contact:foursquare";
+	throwWarning: "Change foursquare to contact:foursquare?";
 	fixChangeKey: "foursquare=>contact:foursquare";
 	group: "Contact Prefix";
 }
 
-/* pinterest */
 *["pinterest"] {
-	throwWarning: "Change pinterest to contact:pinterest";
+	throwWarning: "Change pinterest to contact:pinterest?";
 	fixChangeKey: "pinterest=>contact:pinterest";
 	group: "Contact Prefix";
 }
 
-/* tiktok */
 *["tiktok"] {
-	throwWarning: "Change tiktok to contact:tiktok";
+	throwWarning: "Change tiktok to contact:tiktok?";
 	fixChangeKey: "tiktok=>contact:tiktok";
 	group: "Contact Prefix";
 }
 
-/* mastodon */
 *["mastodon"] {
-	throwWarning: "Change mastodon to contact:mastodon";
+	throwWarning: "Change mastodon to contact:mastodon?";
 	fixChangeKey: "mastodon=>contact:mastodon";
 	group: "Contact Prefix";
 }
