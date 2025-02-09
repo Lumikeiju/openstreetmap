@@ -45,7 +45,7 @@ meta
 	group: "Contact Prefix";
 }
 
-*["website"] {
+*["website"]["type"!="route"]["type"!="route_master"] {
 	throwWarning: "Change website to contact:website?";
 	fixChangeKey: "website=>contact:website";
     group: "Contact Prefix";
