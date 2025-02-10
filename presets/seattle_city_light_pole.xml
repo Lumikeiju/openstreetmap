@@ -19,8 +19,8 @@
 			<combo key="colour" text="Pole Color" values="brown,silver,black" />
 			<check key="highway" text="Street Lamp" value_on="street_lamp" disable_off="true" default="" />
 			<check key="man_made" text="Utility Pole" value_on="utility_pole" disable_off="true" default="" />
-			<check key="utility" text="Utility: Power" value_on="power" disable_off="true" default="" />
-			<check key="power" text="Power: Pole" value_on="pole" disable_off="true" default="" />
+			<combo key="utility" text="Utility Type" values="street_lighting,power,street_lighting;power" default="" />
+			<check key="power" text="Power Pole" value_on="pole" disable_off="true" default="" />
 			<text key="ref" text="Number" default="" />
 			<text key="height" text="Pole Height" default="" />
 			<combo key="operator" text="Operator" values="Seattle City Light,Puget Sound Energy" default="" />
