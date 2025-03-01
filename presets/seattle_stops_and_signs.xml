@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-	<group name="Stops and Signs">
+	<group name="SDOT Stops and Signs">
 		<item name="01. Traffic Sign" type="node">
 			<label text="Traffic Sign"/>
 			<combo key="traffic_sign:direction" text="Traffic Sign Direction (0-359)" values="0,90,180,270,N,S,E,W" default=""/>
@@ -10,10 +10,17 @@
 			<combo key="operator" text="Operator" values="Seattle Department of Transportation" default="Seattle Department of Transportation"/>
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q39052410" default="Q39052410"/>
 			<combo key="operator:short" text="Operator (Short)" values="SDOT" default="SDOT"/>
-			<check key="tourism" text="Information" value_on="information" disable_off="true"/>
-			<check key="information" text="Guidepost" value_on="guidepost" disable_off="true"/>
 		</item>
-		<item name="02. Implication" type="node">
+		<item name="02. SDOT Guidepost" type="node">
+			<label text="SDOT Guidepost"/>
+			<key key="tourism" value="information"/>
+			<key key="information" value="guidepost"/>
+			<text key="ref:US-WA:SDOT" text="SDOT Unit ID" default=""/>
+			<combo key="operator" text="Operator" values="Seattle Department of Transportation" default="Seattle Department of Transportation"/>
+			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q39052410" default="Q39052410"/>
+			<combo key="operator:short" text="Operator (Short)" values="SDOT" default="SDOT"/>
+		</item>
+		<item name="03. Implication" type="node">
 			<label text="Implication"/>
 			<combo key="highway" text="Implication Type" values="stop,give_way" display_values="Stop,Yield" default="stop"/>
 			<combo key="direction" text="Direction" values="forward,backward" display_values="Forward,Backward" default=""/>
