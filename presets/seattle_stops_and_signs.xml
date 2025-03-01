@@ -10,6 +10,8 @@
 			<combo key="operator" text="Operator" values="Seattle Department of Transportation" default="Seattle Department of Transportation"/>
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q39052410" default="Q39052410"/>
 			<combo key="operator:short" text="Operator (Short)" values="SDOT" default="SDOT"/>
+			<check key="tourism" text="Information" value_on="information" disable_off="true"/>
+			<check key="information" text="Guidepost" value_on="guidepost" disable_off="true"/>
 		</item>
 		<item name="02. Implication" type="node">
 			<label text="Implication"/>
