@@ -1,0 +1,16 @@
+meta
+{
+	title: "Typo Fixer";
+	version: "1.0_2025-04-06";
+	description: "Validator rules suggesting typo fixes";
+	author: "Lumikeiju";
+	link: "https://github.com/Lumikeiju/openstreetmap/blob/main/validators/typo_fixer.validator.mapcss";
+	baselanguage: "en";
+	min-josm-version: 19369;
+}
+
+*["healthcare:specialty"] {
+	throwError: "Change healthcare:specialty to healthcare:speciality?";
+	fixChangeKey: "healthcare:specialty=>healthcare:speciality";
+	group: "Typo Fixer";
+}
