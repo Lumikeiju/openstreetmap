@@ -50,8 +50,6 @@ Style documents for use on [Ultra](https://overpass-ultra.us/).
 
 Refer to the [MapLibre Style Spec documentation](https://maplibre.org/maplibre-style-spec/) for more details on customizing the visualization.
 
-* **[Pride Map](https://github.com/Lumikeiju/openstreetmap/blob/main/visualizations/pride_map)** | *(pride_map)* | `lgbtq*=*` visualization map
-
 * **[Winter Service](https://github.com/Lumikeiju/openstreetmap/blob/main/visualizations/winter_service)** | *(winter_service)* | Visualization of `winter_service*=*` tags on roadways
 
 ## Queries
