@@ -15,6 +15,7 @@
 			<label text="SDOT Guidepost"/>
 			<key key="tourism" value="information"/>
 			<key key="information" value="guidepost"/>
+			<key key="guidepost" value="simple"/>
 			<text key="ref:US-WA:SDOT" text="SDOT Unit ID" default=""/>
 			<combo key="operator" text="Operator" values="Seattle Department of Transportation" default="Seattle Department of Transportation"/>
 			<combo key="operator:wikidata" text="Operator (Wikidata)" values="Q39052410" default="Q39052410"/>
