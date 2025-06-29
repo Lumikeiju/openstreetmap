@@ -1,0 +1,21 @@
+meta
+{
+    title: "Public Transport";
+    version: "1.0_2025-06-29";
+    description: "Validator rules for public transport features";
+    author: "Lumikeiju";
+    link: "https://github.com/Lumikeiju/openstreetmap/blob/main/validators/public_transport.validator.mapcss";
+    baselanguage: "en";
+    min-josm-version: 19413;
+}
+
+/* Remove "bus=yes" on public transport features */
+relation["public_transport"="stop_area"],
+node["highway"="bus_stop"],
+node["public_transport"="platform"],
+way["public_transport"="platform"],
+way["public_transport"="platform_edge"] {
+    throwError: "Remove unnecessary bus=yes tag";
+    fixRemove: "bus";
+    group: "Public Transport";
+}

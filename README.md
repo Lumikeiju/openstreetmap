@@ -34,6 +34,8 @@ Personal repository for OpenStreetMap-related things.
 
 * **[Typo Fixer](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/typo_fixer.validator.mapcss)** | *(typo_fixer.validator.mapcss)* | Validator rules suggesting typo fixes
 
+* **[Public Transport](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/public_transport.validator.mapcss)** | *(public_transport.validator.mapcss)* | Validator rules for removing unnecessary `bus=yes` tags on some public transport elements
+
 * **[Contact Prefix](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/contact_prefix.validator.mapcss)** | *(contact_prefix.validator.mapcss)* | Validator rules suggesting `contact:` prefix
 
 * **[SCL Poles](https://github.com/Lumikeiju/openstreetmap/blob/main/validators/seattle_city_light_pole.validator.mapcss)** | *(seattle_city_light_pole.validator.mapcss)* | Validator rules for Seattle City Light Poles data
