@@ -10,11 +10,11 @@ meta
 }
 
 /* Remove "bus=yes" on public transport features */
-relation["public_transport"="stop_area"],
-node["highway"="bus_stop"],
-node["public_transport"="platform"],
-way["public_transport"="platform"],
-way["public_transport"="platform_edge"] {
+relation["bus"="yes"]["public_transport"="stop_area"],
+node["bus"="yes"]["highway"="bus_stop"],
+node["bus"="yes"]["public_transport"="platform"],
+way["bus"="yes"]["public_transport"="platform"],
+way["bus"="yes"]["public_transport"="platform_edge"] {
     throwError: "Remove unnecessary bus=yes tag";
     fixRemove: "bus";
     group: "Public Transport";
