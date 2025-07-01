@@ -1,0 +1,38 @@
+meta {
+  title: "TIGER Stripes";
+  version: "1.0.0";
+  date: "2025-06-30";
+  description: "Highlights highways with TIGER tags.";
+  author: "Lumikeiju";
+  min-josm-version: "19418";
+}
+
+way["highway"]["tiger:cfcc"],
+way["highway"]["tiger:county"],
+way["highway"]["tiger:reviewed"],
+way["highway"]["tiger:name_base"],
+way["highway"]["tiger:name_type"],
+way["highway"]["tiger:zip_left"],
+way["highway"]["tiger:zip_right"],
+way["highway"]["tiger:tlid"],
+way["highway"]["tiger:source"],
+way["highway"]["tiger:upload_uuid"],
+way["highway"]["tiger:separated"],
+way["highway"]["tiger:name_direction_prefix"],
+way["highway"]["tiger:name_direction_suffix"],
+way["highway"]["tiger:name_base_1"],
+way["highway"]["tiger:name_type_1"],
+way["highway"]["tiger:zip_left_1"],
+way["highway"]["tiger:zip_right_1"],
+way["highway"]["tiger:name_direction_prefix_1"],
+way["highway"]["tiger:name_direction_suffix_1"],
+way["highway"]["tiger:mtfcc"] {
+  width: 16;
+  color: #ff7f00;
+  opacity: 0.75;
+  dashes: 12,2,4,6,7,3,3,8,10,2,5,7,3,4,12,3;
+  casing-width: 2;
+  casing-color: black;
+  casing-opacity: 0.75;
+  z-index: 999;
+}

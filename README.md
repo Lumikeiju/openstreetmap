@@ -54,6 +54,12 @@ Refer to the [MapLibre Style Spec documentation](https://maplibre.org/maplibre-s
 
 * **[Winter Service](https://github.com/Lumikeiju/openstreetmap/blob/main/visualizations/winter_service)** | *(winter_service)* | Visualization of `winter_service*=*` tags on roadways
 
+## Styles
+
+MapCSS-formatted paint styles for use in JOSM.
+
+* **[TIGER Stripes](https://github.com/Lumikeiju/openstreetmap/blob/main/styles/tiger-stripes.mapcss)** | *(tiger-stripes.mapcss)* | Highlights highways with TIGER tags.
+
 ## Queries
 
 ### QA
