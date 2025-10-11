@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-	<group name="3D Building Details"> 
+	<group name="3D Building Details">
 		<!-- Node/Way/Area/Relation: 3D Building -->
 		<item name="01. 3D Building Details" type="node,way,closedway,relation">
 			<label text="Specify details about a building (or building part) and its roof." />

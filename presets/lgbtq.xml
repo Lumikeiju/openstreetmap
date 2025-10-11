@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-	<group name="LGBTQ+"> 
+	<group name="LGBTQ+">
 		<!-- Node/Way/Area/Relation: LGBTQ+ -->
 		<item name="LGBTQ+" type="node,way,closedway,relation">
 			<label text="Specify details about the level of LGBTQ+-friendliness of a feature and related signage." />

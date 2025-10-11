@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-  <group name="Rooftop Solar Panel"> 
+	<group name="Rooftop Solar Panel">
 		<!-- Node/Area/Relation: Rooftop Solar Panel -->
 		<item name="01. Rooftop Solar Panel (Node/Area/Relation)" type="node,closedway,relation">
 			<label text="Rooftop Solar Panel (Node/Area/Relation)" />
@@ -12,6 +12,6 @@
 			<key key="generator:solar:tracking" value="no" />
 			<key key="location" value="roof" />
 			<text key="generator:solar:modules" text="Number of panels" default="" />
-		</item>	
+		</item>
 	</group>
 </presets>
