@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-	<group name="Address (US-WA)"> 
+	<group name="Address (US-WA)">
 		<!-- Address (US-WA) -->
 		<item name="Address (US-WA)" type="node,way,closedway,relation">
 			<label text="Address (US-WA)" />
-			<text key="addr:housenumber" text="Housenumber" default="" />
-			<text key="addr:unit" text="Unit / Suite" default="" />
-			<text key="addr:street" text="Street" default="" />
-			<text key="addr:city" text="City" default="" />
+			<text key="addr:housenumber" text="Housenumber" />
+			<text key="addr:unit" text="Unit / Suite" />
+			<text key="addr:street" text="Street" />
+			<text key="addr:city" text="City" />
 			<text key="addr:state" text="State" default="WA" />
-			<text key="addr:postcode" text="ZIP Code" default="" />
+			<text key="addr:postcode" text="ZIP Code" />
 			<text key="addr:country" text="Country" default="US" />
+			<text key="addr:full" text="Full Address" />
 		</item>
 	</group>
 </presets>
