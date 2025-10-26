@@ -92,4 +92,4 @@ Icons, images, illustrations, etc.
 
 #### OSM Pin
 
-### Light Source Ilustrations
+### Light Source Illustrations
