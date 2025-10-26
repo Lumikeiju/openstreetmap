@@ -28,7 +28,7 @@ Personal repository for OpenStreetMap-related things.
 
 ## Guides
 
-* **[King County DSM](https://github.com/Lumikeiju/openstreetmap/blob/main/guides/king_county_dsm.txt)** | *(king_county_dsm.txt)* | Clipping a `.tif` (such as a large DSM) in QGIS and importing it into JOSM
+* **[King County DSM](https://github.com/Lumikeiju/openstreetmap/blob/main/guides/king_county_dsm.md)** | *(king_county_dsm.md)* | Clipping a `.tif` (such as a large DSM) in QGIS and importing it into JOSM
 
 ## Validators
 
