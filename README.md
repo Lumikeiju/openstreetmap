@@ -88,17 +88,13 @@ Icons, images, illustrations, etc.
 
 #### [OSM Heart](resources/icons/osmheart) and [OSM Pin](resources/icons/osmpin)
 
-<img src="resources/icons/osmheart/osmheart_128.png" width="128" height="128" alt="OpenStreetMap-themed icon in a heart shape.">
-<img src="resources/icons/osmpin/osmpin_128.png" width="128" height="128" alt="OpenStreetMap-themed icon in a pin shape.">
+<img src="resources/icons/osmheart/osmheart_128.png" width="128" height="128" alt="OpenStreetMap-themed icon in a heart shape."> <img src="resources/icons/osmpin/osmpin_128.png" width="128" height="128" alt="OpenStreetMap-themed icon in a pin shape.">
 
 Also on Wikimedia Commons! [OSM Heart](https://commons.wikimedia.org/wiki/File:OSM_Heart.svg) | [OSM Pin](https://commons.wikimedia.org/wiki/File:OSM_Pin.svg)
 
 #### [LGBTQ+](resources/icons/lgbtq)
 
-<img src="resources/icons/lgbtq/osmheart_lgbtq_horizontal_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a heart shape with a horizontal pride flag overlay.">
-<img src="resources/icons/lgbtq/osmheart_lgbtq_slanted_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a heart shape with a slanted pride flag overlay.">
-<img src="resources/icons/lgbtq/osmpin_lgbtq_horizontal_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a pin shape with a horizontal pride flag overlay.">
-<img src="resources/icons/lgbtq/osmpin_lgbtq_slanted_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a pin shape with a slanted pride flag overlay.">
+<img src="resources/icons/lgbtq/osmheart_lgbtq_horizontal_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a heart shape with a horizontal pride flag overlay."> <img src="resources/icons/lgbtq/osmheart_lgbtq_slanted_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a heart shape with a slanted pride flag overlay."> <img src="resources/icons/lgbtq/osmpin_lgbtq_horizontal_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a pin shape with a horizontal pride flag overlay."> <img src="resources/icons/lgbtq/osmpin_lgbtq_slanted_128.png" width="96" height="96" alt="OpenStreetMap-themed icon in a pin shape with a slanted pride flag overlay.">
 
 Commons: [Heart (Horizontal)](https://commons.wikimedia.org/wiki/File:OSM_Heart_Horizontal_Pride.svg) | [Heart (Slanted)](https://commons.wikimedia.org/wiki/File:OSM_Heart_Slanted_Pride.svg) | [Pin (Horizontal)](https://commons.wikimedia.org/wiki/File:OSM_Pin_Horizontal_Pride.svg) | [Pin (Slanted)](https://commons.wikimedia.org/wiki/File:OSM_Pin_Slanted_Pride.svg)
 
@@ -108,15 +104,10 @@ These are all also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Cat
 
 Street light color temperature illustrations created for [OSM Wiki - Key:light:colour](https://wiki.openstreetmap.org/wiki/Key:light:colour).
 
-<img src="resources/light_source_illustrations/light_colour_2700_k.svg" width="128" height="128" alt="Light color temperature 2700K">
-<img src="resources/light_source_illustrations/light_colour_3000_k.svg" width="128" height="128" alt="Light color temperature 3000K">
-<img src="resources/light_source_illustrations/light_colour_3500_k.svg" width="128" height="128" alt="Light color temperature 3500K">
+<img src="resources/light_source_illustrations/light_colour_2700_k.svg" width="128" height="128" alt="Light color temperature 2700K"> <img src="resources/light_source_illustrations/light_colour_3000_k.svg" width="128" height="128" alt="Light color temperature 3000K"> <img src="resources/light_source_illustrations/light_colour_3500_k.svg" width="128" height="128" alt="Light color temperature 3500K">
 
-<img src="resources/light_source_illustrations/light_colour_4000_k.svg" width="128" height="128" alt="Light color temperature 4000K">
-<img src="resources/light_source_illustrations/light_colour_4500_k.svg" width="128" height="128" alt="Light color temperature 4500K">
-<img src="resources/light_source_illustrations/light_colour_6000_k.svg" width="128" height="128" alt="Light color temperature 6000K">
+<img src="resources/light_source_illustrations/light_colour_4000_k.svg" width="128" height="128" alt="Light color temperature 4000K"> <img src="resources/light_source_illustrations/light_colour_4500_k.svg" width="128" height="128" alt="Light color temperature 4500K"> <img src="resources/light_source_illustrations/light_colour_6000_k.svg" width="128" height="128" alt="Light color temperature 6000K">
 
 Street light count illustrations created for [OSM Wiki - Key:light:count](https://wiki.openstreetmap.org/wiki/Key:light:count).
 
-<img src="resources/light_source_illustrations/light_count_1.svg" width="128" height="128" alt="Light count 1">
-<img src="resources/light_source_illustrations/light_count_2.svg" width="128" height="128" alt="Light count 2">
+<img src="resources/light_source_illustrations/light_count_1.svg" width="128" height="128" alt="Light count 1"> <img src="resources/light_source_illustrations/light_count_2.svg" width="128" height="128" alt="Light count 2">
