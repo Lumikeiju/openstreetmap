@@ -86,10 +86,44 @@ Icons, images, illustrations, etc.
 
 ### Icons
 
-#### LGBTQ+
+#### [OSM Heart](resources/icons/osmheart)
 
-#### OSM Heart
+![OpenStreetMap-themed icon in a heart shape.](resources/icons/osmheart/osmheart_128.png)
+Also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:OSM_Heart.svg)!
 
-#### OSM Pin
+#### [OSM Pin](resources/icons/osmpin)
 
-### Light Source Illustrations
+![OpenStreetMap-themed icon in a pin shape.](resources/icons/osmpin/osmpin_128.png)
+Also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:OSM_Pin.svg)!
+
+#### [LGBTQ+](resources/icons/lgbtq)
+
+![OpenStreetMap-themed icon in a heart shape with a horizontal pride flag overlay.](osmheart_lgbtq_horizontal_128.png)
+Also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:OSM_Heart_Horizontal_Pride.svg)!
+
+![OpenStreetMap-themed icon in a heart shape with a slanted pride flag overlay.](resources/icons/lgbtq/osmheart_lgbtq_slanted_128.png)
+Also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:OSM_Heart_Slanted_Pride.svg)!
+
+![OpenStreetMap-themed icon in a pin shape with a slanted pride flag overlay.](resources/icons/lgbtq/osmpin_lgbtq_slanted_128.png)
+Also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:OSM_Pin_Slanted_Pride.svg)!
+
+![OpenStreetMap-themed icon in a pin shape with a horizontal pride flag overlay.](resources/icons/lgbtq/osmpin_lgbtq_horizontal_128.png)
+Also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:OSM_Pin_Horizontal_Pride.svg)!
+
+### [Light Source Illustrations](resources/light_source_illustrations)
+
+Street light color temperature illustrations created for [OSM Wiki - Key:light:colour](https://wiki.openstreetmap.org/wiki/Key:light:colour).
+
+![alt text](resources/light_source_illustrations/light_colour_2700_k.svg)
+![alt text](resources/light_source_illustrations/light_colour_3000_k.svg)
+![alt text](resources/light_source_illustrations/light_colour_3500_k.svg)
+![alt text](resources/light_source_illustrations/light_colour_4000_k.svg)
+![alt text](resources/light_source_illustrations/light_colour_4500_k.svg)
+![alt text](resources/light_source_illustrations/light_colour_6000_k.svg)
+
+Street light count illustrations created for [OSM Wiki - Key:light:count](https://wiki.openstreetmap.org/wiki/Key:light:count).
+
+![alt text](resources/light_source_illustrations/light_count_1.svg)
+![alt text](resources/light_source_illustrations/light_count_2.svg)
+
+These are all also on [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Drawings_of_street_lights)!
