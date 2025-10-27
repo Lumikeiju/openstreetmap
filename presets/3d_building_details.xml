@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
-	<group name="3D Building Details">
-		<!-- Node/Way/Area/Relation: 3D Building -->
-		<item name="01. 3D Building Details" type="node,way,closedway,relation">
-			<label text="Specify details about a building (or building part) and its roof." />
-			<combo key="building" text="Building Type" values="yes,house,garage,shed,retail,apartments" default="" />
-			<combo key="house" text="House Type" values="detached,semi-detached,terraced" default="" />
-			<combo key="building:part" text="Building Part" values="yes,retail,apartments,roof" default="" />
-			<combo key="building:material" text="Building Material" values="brick,concrete,cement_block,stone,marble,wood,metal,glass,mirror,vinyl" default="" />
-			<text key="building:colour" text="Building Color" default="" />
-			<text key="building:levels" text="Total Above-Ground Building Stories" default="" />
-			<text key="building:min_level" text="Minimum Level (part starts at ... stories above ground)" default="" />
-			<text key="building:levels:underground" text="Underground stories" default="" />
-			<text key="height" text="Total Height (from ground to top of roof)" default="" />
-			<text key="min_height" text="Minimum Height (part starts at ... above ground)" default="" />
-			<text key="building:height" text="Building Height (from ground to bottom of roof)" default="" />
-			<text key="roof:height" text="Roof Height (from bottom of roof to top of roof)" default="" />
-			<text key="roof:levels" text="Livable Roof Stories" default="" />
-			<combo key="roof:shape" text="Roof Shape" values="flat,gabled,skillion,hipped,half-hipped,side_hipped,side_half-hipped,hipped-and-gabled,mansard,gambrel,pyramidal,crosspitched,cone,dome,onion,round" default="" />
-			<combo key="roof:orientation" text="Roof Orientation" values="along,across" default="" />
-			<text key="roof:direction" text="Roof Direction (water runs towards... 0-360)" default="" />
-			<combo key="roof:material" text="Roof Material" values="asphalt_shingle,concrete,roof_tiles,wood,metal,glass" default="" />
-			<text key="roof:colour" text="Roof Color" default="" />
-		</item>
-	</group>
+  <group name="3D Building Details">
+    <!-- Node/Way/Area/Relation: 3D Building -->
+    <item name="01. 3D Building Details" type="node,way,closedway,relation">
+      <label text="Specify details about a building (or building part) and its roof." />
+      <combo key="building" text="Building Type" values="yes,house,garage,shed,retail,apartments" default="" />
+      <combo key="house" text="House Type" values="detached,semi-detached,terraced" default="" />
+      <combo key="building:part" text="Building Part" values="yes,retail,apartments,roof" default="" />
+      <combo key="building:material" text="Building Material" values="brick,concrete,cement_block,stone,marble,wood,metal,glass,mirror,vinyl" default="" />
+      <text key="building:colour" text="Building Color" default="" />
+      <text key="building:levels" text="Total Above-Ground Building Stories" default="" />
+      <text key="building:min_level" text="Minimum Level (part starts at ... stories above ground)" default="" />
+      <text key="building:levels:underground" text="Underground stories" default="" />
+      <text key="height" text="Total Height (from ground to top of roof)" default="" />
+      <text key="min_height" text="Minimum Height (part starts at ... above ground)" default="" />
+      <text key="building:height" text="Building Height (from ground to bottom of roof)" default="" />
+      <text key="roof:height" text="Roof Height (from bottom of roof to top of roof)" default="" />
+      <text key="roof:levels" text="Livable Roof Stories" default="" />
+      <combo key="roof:shape" text="Roof Shape" values="flat,gabled,skillion,hipped,half-hipped,side_hipped,side_half-hipped,hipped-and-gabled,mansard,gambrel,pyramidal,crosspitched,cone,dome,onion,round" default="" />
+      <combo key="roof:orientation" text="Roof Orientation" values="along,across" default="" />
+      <text key="roof:direction" text="Roof Direction (water runs towards... 0-360)" default="" />
+      <combo key="roof:material" text="Roof Material" values="asphalt_shingle,concrete,roof_tiles,wood,metal,glass" default="" />
+      <text key="roof:colour" text="Roof Color" default="" />
+    </item>
+  </group>
 </presets>

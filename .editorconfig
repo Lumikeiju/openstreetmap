@@ -35,3 +35,9 @@ indent_size = 4
 [*.py]
 indent_style = space
 indent_size = 4
+
+# XML files
+[*.xml]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
