@@ -13,13 +13,13 @@
     </item>
     <item name="02. SDOT Guidepost" type="node">
       <label text="SDOT Guidepost" />
-      <key key="tourism" value="information" />
-      <key key="information" value="guidepost" />
-      <key key="guidepost" value="simple" />
+      <combo key="information" text="Information" values="guidepost" display_values="Guidepost" default="guidepost" />
+      <combo key="guidepost" text="Guidepost Type" values="simple" display_values="Simple / Nonspecific" default="simple" />
       <text key="ref:US-WA:SDOT" text="SDOT Unit ID" default="" />
       <combo key="operator" text="Operator" values="Seattle Department of Transportation" default="Seattle Department of Transportation" />
       <combo key="operator:wikidata" text="Operator (Wikidata)" values="Q39052410" default="Q39052410" />
       <combo key="operator:short" text="Operator (Short)" values="SDOT" default="SDOT" />
+      <check key="tourism" text="Tourism Feature" default="off" value_on="information" value_off="" />
     </item>
     <item name="03. Implication" type="node">
       <label text="Implication" />
